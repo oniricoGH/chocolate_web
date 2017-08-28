@@ -1,0 +1,301 @@
+/*! Place your custom styles here */
+
+/* 1. Header */
+/* 2. Footer */
+/* 3. Title in pages */
+/* 4. HOMEPAGE */
+/* 5. ABOUT */
+/* 6. HOW-WE-WORK */
+/* 7. PORTFOLIO */
+
+/* 1. Header */
+#header-info {
+    text-align: center;
+    margin-top: 70px;
+}
+
+#header-info h3{
+    font-size: 1.5em;
+}
+
+.switchable {
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#header-logo img:hover {
+    animation-name: rotate_twice;
+    animation-duration: 1s;
+}
+
+@media (min-width: 768px) {
+#header-info {
+    padding-left: 120px;
+    text-align: left;
+    margin-top: 0px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+#header-info h3{
+    font-size: 1.3em;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+#header-info{
+    margin-top: 15px;
+}
+}
+
+/*****************************/
+
+/* 2. Footer */
+#main-footer-chocolate .col-sm-12 {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+footer .type--fine-print:not(p) {
+    opacity: .8;
+}
+
+#main-footer-chocolate {
+    background-color: #150600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main-footer-chocolate .heading-block {
+    margin-bottom: 1em;
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+}
+
+#main-footer-chocolate span {
+    color: white;   
+}
+
+/*****************************/
+
+/* 3. Title in pages */
+.main-page-title p{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+/*****************************/
+
+/* 4. HOMEPAGE */
+/* Boxes in homepage */
+#main-container-homepage #homepage-boxes-area {
+    /* background: #4c2600; */
+    background-color: white;
+}
+
+#main-container-homepage #homepage-boxes-area p {
+    font-size: 1.5em;
+    color: black;
+}
+
+#main-container-homepage #homepage-boxes-area .feature {
+    border: none;
+}
+
+#main-container-homepage #homepage-boxes-area .feature-boxed-link {
+    border: solid 2px #4c2600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main-container-homepage #homepage-boxes-area .feature-boxed-link:hover {
+    color: white;
+    background-color: #4c2600;
+}
+
+#main-container-homepage #homepage-boxes-area a {
+    color: #4c2600;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#main-container-homepage #homepage-boxes-area a:hover {
+    text-decoration: none;
+}
+
+/*****************************/
+
+/* 5. ABOUT */
+#main-container-about #about-description li {
+    color: black;
+    list-style: circle;
+    font-size: 1.4em;
+}
+
+#main-container-about #about-description span {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#about-image {
+    text-align: center;
+}
+
+#about-description {
+    text-align: center;
+}
+
+#about-description ul{
+    text-align: left;
+    padding-left: 15px;
+}
+
+@media (min-width: 1199px) {
+    #about-image {
+        padding-left: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+    #about-description {
+    text-align: left;
+}
+}
+
+/*****************************/
+
+/* 6. HOW-WE-WORK */
+.process-3 li .process__number{
+    border-color: #4c2600;
+}
+
+.process-3 li .process__number span{
+    color: #4c2600;
+}
+
+/* Boxes */
+#main-container-how-we-work #how-we-work-boxes-area {
+    /* background: #4c2600; */
+    /* background-color: whitesmoke; */
+    background-color: white;
+    border: none;
+}
+
+#main-container-how-we-work #how-we-work-boxes-area .feature {
+    border: none;
+}
+
+#main-container-how-we-work #how-we-work-boxes-area p {
+    font-size: 1.3em;
+    color: black;
+}
+
+li.process_item p {
+    color: black;
+    font-size: 1.2em;
+}
+
+li.process_item h4 {
+    font-weight: 600;
+}
+
+.process-3:before {
+    border-left: none;
+}
+
+
+@media (min-width: 1200px) {
+.how-we-work-process img {
+    margin-top: 40px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.how-we-work-process img {
+    margin-top: 80px
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.how-we-work-process img {
+    margin-top: 110px
+}
+}
+
+/*****************************/
+
+/* 7. PORTFOLIO */
+#main-container-portfolio p{
+    font-size: 1.2em;
+}
+
+#main-container-portfolio h2{
+    text-align: center;
+}
+
+/* paragraphs in portfolio */
+.portfolio-element p.lead {
+    text-align: justify;
+}
+
+.portfolio-element i {
+    font-size: 1.2em;
+}
+
+
+.portfolio-element .feature-boxed-link {
+    border: solid 2px #4c2600;
+    padding: 5px;
+    border-radius: 5px;
+    color: #4c2600;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-element .feature-boxed-link:hover {
+    color: white;
+    background-color: #4c2600;
+}
+
+.portfolio-element a:hover {
+    text-decoration: none;
+}
+
+.portfolio-element img {
+    margin-bottom: 30px;
+}
+
+@keyframes rotate_twice {
+    0%   { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+    33%  { -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);}
+    66%  { -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Safari */
+    transform: rotate(-2deg);}
+    100% { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+}
+
+.portfolio-element img:hover {
+    animation-name: rotate_twice;
+    animation-duration: 0.5s;
+}
+
+
+@media (min-width: 768px) {
+.portfolio-element img {
+    margin-top: 50px;
+}    
+}
+
+/*****************************/
